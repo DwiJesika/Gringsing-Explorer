@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gringsing Explorer | Jelajahi Kain Tradisional Bali</title>
+    <meta name="description" content="Platform interaktif untuk mempelajari 18 motif kain Gringsing dari Desa Tenganan Pegringsingan, Bali">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Gringsing Explorer</h1>
+            <p class="tagline">Jelajahi Kekayaan Budaya Tenun Ikat Ganda Bali</p>
+        </div>
+        <nav aria-label="Navigasi utama">
+            <button id="btn-beranda" class="nav-button">Beranda</button>
+            <button id="btn-galeri" class="nav-button">Galeri</button>
+            <button id="btn-kuis" class="nav-button">Kuis</button>
+            <button id="btn-scan" class="nav-button">Scan Motif</button>
+            <button id="btn-chatbot" class="nav-button">AI Guide</button>
+        </nav>
+    </header>
+
+    <main id="app-container">
+        <section id="beranda-section" class="active-section content-section">
+            <section class="gringsing-section">
+                <h1 class="gringsing-title">Kain Gringsing: Warisan Mistis Tenganan</h1>
+
+                <div class="gringsing-card" onclick="toggleContent(this)">
+                    <h2>Gringsing: Kain Penolak Bala</h2>
+                    <div class="gringsing-content">
+                        <p>Kain Gringsing adalah satu-satunya kain tenun Indonesia yang dibuat dengan teknik ikat ganda (double ikat), salah satu teknik paling langka di dunia. Dibuat secara turun-temurun oleh masyarakat Desa Tenganan Pegringsingan, kain ini diyakini memiliki kekuatan magis dan digunakan dalam berbagai upacara penting di Bali seperti potong gigi, pernikahan, dan ruwatan. Namanya berasal dari kata 'gring' (sakit) dan 'sing' (tidak) yang artinya "tidak sakit", sebagai simbol penolak bala dan pelindung spiritual.</p>
+                    </div>
+                </div>
+
+                <div class="gringsing-card" onclick="toggleContent(this)">
+                    <h2>Legenda & Mitos Kain Gringsing</h2>
+                    <div class="gringsing-content">
+                        <p>Di balik indah dan rumitnya motif kain Gringsing, tersembunyi kisah legenda dan mitos yang membuatnya tidak sekadar kain biasa, tetapi sebuah peninggalan spiritual dan sakral dari masa silam.</p>
+                        <p><strong>Asal-Usul: Dewa Indra</strong><br>Menurut kepercayaan masyarakat Desa Tenganan Pegringsingan, asal mula kain Gringsing berasal dari Dewa Indra, sosok dewa pelindung dan penguasa kehidupan yang sangat dihormati di desa tersebut. Dikisahkan bahwa pada suatu malam, Dewa Indra memandangi langit yang dihiasi bintang, bulan, dan matahari, lalu merasa takjub akan keindahannya. Untuk mengabadikan keindahan itu, Dewa Indra menciptakan pola-pola dan warna yang menggambarkan unsur-unsur langit, dan mengajarkan teknik tenun ikat ganda kepada perempuan-perempuan pilihan di Desa Tenganan.</p>
+                        <p><strong>Mitos Darah: Pewarna dari Unsur Magis</strong><br>Salah satu mitos yang paling terkenal adalah penggunaan darah manusia dalam proses pewarnaan kain Gringsing. Masyarakat Tenganan sengaja menyebarkan cerita tersebut sebagai upaya untuk melindungi teknik pewarnaan alami mereka. Kini diketahui bahwa warna merah berasal dari akar mengkudu (Morinda citrifolia) dan warna lainnya dari bahan alam.</p>
+                    </div>
+                </div>
+
+                <div class="gringsing-card" onclick="toggleContent(this)">
+                    <h2>Filosofi Warna Gringsing (Tridatu)</h2>
+                    <div class="gringsing-content">
+                        <p>Kain Gringsing hanya menggunakan tiga warna utama, yang melambangkan unsur kehidupan:</p>
+                        <ul>
+                            <li>🔴 Merah: Melambangkan api, simbol energi dan kehidupan, dikaitkan dengan Dewa Brahma</li>
+                            <li>⚪ Putih/Kuning: Melambangkan angin atau udara, penting untuk pernapasan dan kehidupan, dikaitkan dengan Dewa Wisnu</li>
+                            <li>⚫ Hitam: Melambangkan air, memberikan kehidupan bagi seluruh makhluk, dikaitkan dengan Dewa Siwa</li>
+                        </ul>
+                        <p>Ketiga warna ini dipercaya menjaga keseimbangan tubuh dan jiwa, agar pemakainya tidak sakit.</p>
+                    </div>
+                </div>
+
+                <div class="gringsing-card" onclick="toggleContent(this)">
+                    <h2>Dilarang Ditiru dan Dijaga Secara Adat</h2>
+                    <div class="gringsing-content">
+                        <p>Dalam aturan adat awig-awig Tenganan, semua proses pembuatan kain Gringsing dilakukan dengan ritual tertentu, tidak boleh tergesa-gesa, dan harus dijalankan dengan konsentrasi spiritual. Dari proses pemintalan, pewarnaan, pengikatan pola, hingga penenunan. Semuanya dilakukan dengan sabar, penuh penghayatan, dan tanpa bantuan mesin.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="visit-section">
+                <h2>📍 Visit Us – Peta Lokasi Desa Tenganan</h2>
+                <p>Desa Tenganan adalah desa Bali Aga yang mempertahankan budaya Bali kuno dengan ketat. Semua bahan untuk kain Gringsing berasal dari alam sekitar desa. Tradisi seperti perang pandan, matruna nyoman, dan aturan awig-awig tetap dijaga hingga kini.</p>
+                
+                <div class="map-wrapper">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!4v1751733594276!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJREoycGplOEFF!2m2!1d-8.47686040259934!2d115.5665902121022!3f22.418236066483075!4f-6.180611635984974!5f0.7820865974627469"
+                        width="100%" height="450" style="border:0; border-radius: 12px;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <div class="hero-gallery">
+                    <div class="gallery-item" onclick="openModal('./data/welcome_tenganan.jpeg')">
+                        <img src="./data/welcome_tenganan.jpeg" alt="Desa Tenganan" />
+                        <div class="gallery-overlay">
+                            <h3>Desa Tenganan</h3>
+                            <p>Gerbang masuk ke desa adat yang mempertahankan tradisi Bali kuno</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openModal('./data/suasana_tenganan.jpg')">
+                        <img src="./data/suasana_tenganan.jpg" alt="Suasana Tenganan" />
+                        <div class="gallery-overlay">
+                            <h3>Suasana Tenganan</h3>
+                            <p>Kehidupan sehari-hari masyarakat Tenganan yang masih tradisional</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openModal('./data/perang_pandan.jpg')">
+                        <img src="./data/perang_pandan.jpg" alt="Perang Pandan" />
+                        <div class="gallery-overlay">
+                            <h3>Perang Pandan</h3>
+                            <p>Ritual sakral yang hanya dilakukan oleh masyarakat Tenganan</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openModal('./data/menenun_kain_gringsing.jpg')">
+                        <img src="./data/menenun_kain_gringsing.jpg" alt="Menenun Kain Gringsing" />
+                        <div class="gallery-overlay">
+                            <h3>Menenun Kain Gringsing</h3>
+                            <p>Proses sakral pembuatan kain dengan teknik ikat ganda</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openModal('./data/ayunan_tradisional.jpg')">
+                        <img src="./data/ayunan_tradisional.jpg" alt="Ayunan Tradisional" />
+                        <div class="gallery-overlay">
+                            <h3>Ayunan Tradisional</h3>
+                            <p>Permainan tradisional yang menjadi bagian dari budaya Tenganan</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openModal('./data/tari_rejang_tenganan.jpg')">
+                        <img src="./data/tari_rejang_tenganan.jpg" alt="Tari Rejang Tenganan" />
+                        <div class="gallery-overlay">
+                            <h3>Tari Rejang Tenganan</h3>
+                            <p>Tarian sakral yang dipersembahkan dalam upacara adat</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- Modal for image preview -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Preview">
+        </div>
+    </div>
+
+        </section>
+        <section id="galeri-section" class="hidden content-section">
+    <h2>Galeri Motif Gringsing</h2>
+    
+    <!-- Gallery View -->
+    <div id="motif-gallery" class="gallery-container">
+        <div class="motif-list">
+            <!-- Konten akan diisi oleh JavaScript -->
+        </div>
+    </div>
+    
+    <!-- Detail Modal/Card -->
+    <div id="motif-detail" class="detail-modal hidden">
+        <div class="detail-overlay">
+            <div class="detail-card">
+                <button id="back-to-gallery" class="back-button">× Tutup</button>
+                <div class="detail-content">
+                    <img id="detail-gambar" alt="Gambar Motif" class="detail-image">
+                    <div class="detail-info">
+                        <h3 id="detail-nama-motif"></h3>
+                        <p><strong>Makna:</strong> <span id="detail-makna"></span></p>
+                        <p><strong>Bentuk Visual:</strong> <span id="detail-bentuk-visual"></span></p>
+                        <p><strong>Kegunaan:</strong> <span id="detail-kegunaan"></span></p>
+                        <p><strong>Daerah:</strong> <span id="detail-daerah"></span></p>
+                        <p><strong>Jenis Kain:</strong> <span id="detail-jenis-kain"></span></p>
+                        <p><strong>Warna:</strong> <span id="detail-warna"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="quiz-section" class="hidden content-section">
+  <h2>🎨 Kuis: Kenali Gringsingmu!</h2>
+
+  <div id="quiz-container" class="interactive-box">
+    <!-- Progress Container -->
+    <div class="progress-container hidden" id="progress-container">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+      <div class="progress-text" id="progress-text">Pertanyaan 1 dari 7</div>
+    </div>
+
+    <!-- Question Container -->
+    <div class="question-container">
+      <p id="quiz-question" class="fade-question">
+        🌟 Selamat datang di kuis motif Gringsing! Siap menguji pengetahuan Anda?
+      </p>
+
+      <div id="quiz-options" class="fade-question">
+        <!-- Quiz options will be loaded here -->
+      </div>
+    </div>
+
+    <!-- Feedback -->
+    <div id="quiz-feedback"></div>
+
+    <!-- Action Buttons -->
+    <button id="quiz-start" class="action-button">🚀 Mulai Kuis</button>
+    <button id="quiz-submit" class="action-button hidden">✅ Jawab</button>
+    <button id="quiz-next" class="action-button hidden">➡️ Lanjut</button>
+  </div>
+</section>
+              <section id="scan-section" class="hidden content-section">
+    <h2>🧵 Scan Motif Gringsing</h2>
+    <p>Upload gambar kain untuk mengenali motif dan melihat penjelasan budayanya.</p>
+
+    <div class="upload-container">
+        <div class="camera-icon-container">
+            <img src="data/camera-icon.png" alt="Camera Icon" class="camera-icon">
+        </div>
+        <input type="file" id="uploadInput" accept="image/*" onchange="handleFileUpload(event)" />
+        <img id="preview" style="display: none; max-width: 300px; margin-top: 10px;" />
+    </div>
+    <div id="scan-result" class="hidden mt-8"></div>
+</section>
+<!-- Detail Modal untuk Scan -->
+<div id="motif-detail-scan" class="detail-modal hidden">
+    <div class="detail-overlay">
+        <div class="detail-card">
+            <button id="back-to-scan" class="back-button">× Tutup</button>
+            <div class="detail-content">
+                <img id="scan-detail-gambar" alt="Gambar Motif" class="detail-image">
+                <div class="detail-info">
+                    <h3 id="scan-detail-nama-motif"></h3>
+                    <p><strong>Makna:</strong> <span id="scan-detail-makna"></span></p>
+                    <p><strong>Bentuk Visual:</strong> <span id="scan-detail-bentuk-visual"></span></p>
+                    <p><strong>Kegunaan:</strong> <span id="scan-detail-kegunaan"></span></p>
+                    <p><strong>Daerah:</strong> <span id="scan-detail-daerah"></span></p>
+                    <p><strong>Jenis Kain:</strong> <span id="scan-detail-jenis-kain"></span></p>
+                    <p><strong>Warna:</strong> <span id="scan-detail-warna"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+           <section id="chatbot-section" class="hidden content-section">
+        <!-- Floating ornaments hanya di dalam section -->
+        <div class="chatbot-ornament chatbot-ornament-1">❋</div>
+        <div class="chatbot-ornament chatbot-ornament-2">❋</div>
+        
+        <h2>Gringsing AI Assistant</h2>
+        
+        <div class="chatbot-status">
+            <div class="status-dot"></div>
+            <span>Online & Siap Membantu</span>
+        </div>
+        
+        <p>Tanya bebas apapun tentang <strong>kain Gringsing</strong> — Gratis & interaktif!<br>
+        <em>Nikmati pengalaman belajar budaya Bali yang menyenangkan</em></p>
+        
+        <div class="chatbot-iframe-wrapper">
+            <iframe 
+                src="https://cdn.botpress.cloud/webchat/v3.0/shareable.html?configUrl=https://files.bpcontent.cloud/2025/07/07/07/20250707070542-B2KW01VB.json"
+                frameborder="0"
+                allow="microphone; autoplay"
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+        </section>
+    </main>
+
+ <footer>
+        <div class="footer-content">
+            <div class="creator-info">
+                <h3>Dikembangkan Oleh</h3>
+                <div class="creators">
+                    <div class="creator-card">
+                        <h4>Ni Kadek Dwi Jesika Sari</h4>
+                        <div class="contact-info">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Universitas Pendidikan Ganesha</span>
+                        </div>
+                    </div>
+                    <div class="creator-card">
+                        <h4>Ni Putu Vina Permata Putri</h4>
+                        <div class="contact-info">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Universitas Pendidikan Ganesha</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#"><i class="fas fa-shield-alt"></i>Privasi</a>
+                <a href="#"><i class="fas fa-phone"></i>Phone</a>
+                <a href="#"><i class="fas fa-info-circle"></i>Tentang Kami</a>
+                <a href="#"><i class="fas fa-envelope"></i>Email</a>
+            </div>
+            <div class="email-link">
+                <a href="mailto:dwi.jesika@student.undiksha.ac.id">dwi.jesika@student.undiksha.ac.id</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Gringsing Explorer. Melestarikan Warisan Budaya Bali.</p>
+            </div>
+        </div>
+    </footer>
+<script src="data.js" defer></script>
+<script src="script.js" defer></script>
+
+</body>
+</html>
